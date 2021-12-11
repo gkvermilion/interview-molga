@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/kali/CLionProjects/interview/classes.h
+string
+-
+iostream
+-
+
+/Users/kali/CLionProjects/interview/main.cpp
+classes.h
+/Users/kali/CLionProjects/interview/classes.h
+iostream
+-
+
